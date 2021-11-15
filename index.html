@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Proiect Frontend</title>	
+	<!-- Latest compiled and minified CSS -->
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='assets/css/style.css'>
+	<link rel='shortcut icon' href='assets/images/favicon.png'>
+	<link rel='apple-touch-icon' href='assets/images/favicon2.png'>
+
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+	<meta charset='utf-8'>
+</head>
+
+<body>
+<nav class='navbar navbar-expand-lg fixed-top'>
+	<div class='container'>
+		<div class='navbar-brand-div'>
+			<a class='navbar-brand' href='index.html'>Proiect Frontend</a>
+		</div>
+
+		<div class='navbar-toggler hamburger' data-toggle='collapse' data-target='#collapseNavbar'>
+			<input type='checkbox' id='hamburger-check'>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+		<div class='collapse navbar-collapse' id='collapseNavbar'>
+			<ul class='navbar-nav navbar-link'>
+				<li class='nav-item nav-link-active'><a class='nav-link' href='index.html'>Acasă</a></li>
+				<li class='nav-item'><a class='nav-link' href='meniu.html'>Meniu</a></li>
+				<li class='nav-item'><a class='nav-link' href='desprenoi.html'>Desrpe noi</a></li>
+				<li class='nav-item'><a class='nav-link' href='rezervare.html'>Rezervare</a></li>
+
+			</ul>
+
+			<ul class='navbar-nav navbar-icon'>
+				<li class='nav-item'><a class='nav-link' href='conectare.html'><i class="fas fa-user"></i></a></li>
+				<li class='nav-item'><a class='nav-link' href='cos.html'><i class="fas fa-shopping-cart"></i></a></li>
+				<li class='nav-item'><button class='btn btn-gold'>Comandă online</button></li>
+			</ul>
+
+		</div>
+	</div>
+</nav>
+
+<div class='header-full'>
+	<div class='container'>
+		<div class='header-container'>
+			<h1>Restaurant Fast-Food</h1>
+			<p>Doloremque, itaque aperiam facilis rerum, commodi, 
+				temporibus sapiente ad mollitia laborum quam quisquam esse error unde. 
+				Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos 
+				nihil ducimus libero ipsam.</p>
+		</div>
+	</div>
+</div>
+
+<div class='container container-oferte'>
+		<div class='row tab-row'>
+			<div class='tab-oferta col-md-6'>
+				<div class='img-box'>
+					<img src='assets/images/food/o1.jpg' >
+				</div>
+				<div class='text-box'>
+					<p class='oferta-titlu'>Tasty Thursdays</p>
+					<p class='oferta-discount'>20% <sub>off</sub></p>
+					<button class='btn btn-gold'>Comandă acum <i class="fas fa-shopping-cart"></i></button>
+				</div>
+
+			</div>
+
+			<div class='tab-oferta col-md-6'>
+				<div class='img-box'>
+					<img src='assets/images/food/o2.jpg' >
+				</div>
+				<div class='text-box'>
+					<p class='oferta-titlu'>Pizza Days</p>
+					<p class='oferta-discount'>15% <sub>off</sub></p>
+					<button class='btn btn-gold'>Comandă acum <i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class='container' id='meniu'>
+	<div class='meniu-titlu'>
+		<h2>Meniul nostru</h2>	
+	</div>
+	<ul class='filtru-meniu'>
+		<li class='buton-filtru filtru-activ' id='all'>Toate produsele</li>
+		<li class='buton-filtru' id='burger'>Burgeri</li>
+		<li class='buton-filtru' id='paste'>Paste</li>
+		<li class='buton-filtru' id='pizza'>Pizza</li>
+		<li class='buton-filtru' id='cartofi'>Cartofi</li>
+	</ul>
+
+	<div class='meniu-item-food'>
+
+	<div class='col-md-4 meniu-col' id='pizza'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f1.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Delicious Pizza</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>15 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='burger'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f2.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Burger Delicios</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>15 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='pizza'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f3.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Delicious Pizza</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>25 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='paste'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img meniu-img-small'>
+					<img src='assets/images/food/f4.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Delicious Pasta</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>35 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='cartofi'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img meniu-img-small'>
+					<img src='assets/images/food/f5.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>French Fries</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>10 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='pizza'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f6.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Delicious Pizza</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>45 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='burger'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f7.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Tasty Burger</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>25 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='burger'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f8.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Chicken Burger</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>30 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='col-md-4 meniu-col' id='paste'>
+			<div class='meniu-img'>
+				<div class='inside-meniu-img'>
+					<img src='assets/images/food/f9.png'>
+				</div>
+			</div>
+			<div class='meniu-text'>
+				<p class='meniu-titlu-item'>Delicious Pasta</p>
+				<p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, 
+					magnam voluptatem repellendus sed eaque</p>
+				<div class='meniu-item-bottom'>
+					<p>25 RON</p>
+					<button class='btn btn-gold btn-rotund'><i class="fas fa-shopping-cart"></i></button>
+				</div>
+			</div>
+		</div>
+
+		<div class='buton-view-more'>
+			<a href='meniu.html' class='btn btn-gold'>Vezi mai mult</a>
+		</div>
+
+	</div>
+</div>
+
+<div class='who'>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-md-6'>
+				<img src='assets/images/about-img.png'>
+			</div>
+			<div class='col-md-6'>
+				<h2>Despre noi</h2>
+				<p>There are many variations of passages of Lorem Ipsum available, 
+					but the majority have suffered alteration in some form, by injected humour, 
+					or randomised words which don't look even slightly believable. 
+					If you are going to use a passage of Lorem Ipsum, you need to be sure there 
+					isn't anything embarrassing hidden in the middle of text. All</p>
+				<div class='buton-view-more'>
+					<a href='desprenoi.html' class='btn btn-gold'>Vezi mai mult</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='rezervare'>
+	<div class='container'>
+		<div class='row form-row'>
+			<div class='col-md-6'>
+				<h2>Fă o rezervare</h2>
+				<form action='' method='POST'>
+					<div class='form-group'>
+						<input class='form-control' type='text' name='nume' placeholder='Nume și prenume' required autocomplete="off">
+					</div>
+					<div class='form-group'>
+						<input class='form-control' type='text' name='telefon' placeholder='Numărul de telefon' required autocomplete="off">
+					</div>
+					<div class='form-group'>
+						<input class='form-control' type='text' name='email' placeholder='Email' required autocomplete="off">
+					</div>
+					<div class='form-group'>
+						<select class='form-control custom-select' name='persoane'>
+							<option selected value='Câte persoane?'>Câte persoane?</option>
+							<option value='1'>1</option>
+							<option value='2'>2</option>
+							<option value='3'>3</option>
+							<option value='4'>4</option>
+							<option value='5'>5</option>
+						</select>
+					</div>
+					<div class='form-group'>
+						<input class='form-control' type='date' name='data' placeholder="Alege data" required >
+					</div>
+					<div class='form-group form-btn-centru'>
+						<button type='submit' class='btn btn-gold'>Rezervă acum</button>
+					</div>
+				</form>
+			</div>
+			<div class='col-md-6'>
+				<div class="card card-cascade narrower">
+					<div id="map-container-google-9" class="z-depth-1-half map-container-5">
+						<iframe src="https://maps.google.com/maps?q=Bucharest&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0"
+						style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='recenzii'>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h2>Ce spun clienții noștri</h2>
+				<div class='carousel slide' data-ride='carousel' id='recenzii'>
+					<div class='carousel-inner'>
+						<div class='carousel-item active'>
+							<div class='col-md-12 recenzii-item'>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Fusce ac sem convallis, maximus massa sed, varius mauris. 
+									Vivamus quis commodo metus. Maecenas dignissim dolor nunc, quis tincidunt turpis fringilla eu. 
+									Donec vitae ante at ex aliquam vehicula non et metus.</p>
+								<p class='client-nume'><strong>Ana</strong></p>
+							</div>
+							<div class='triunghi'><i class="fas fa-caret-up"></i></div>
+							<div class='recenzii-img'>
+								<img src='assets/images/client/client1.jpg'>
+							</div>
+						</div>
+						<div class='carousel-item'>
+							<div class='col-md-12 recenzii-item'>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Fusce ac sem convallis, maximus massa sed, varius mauris. 
+									Vivamus quis commodo metus. Maecenas dignissim dolor nunc, quis tincidunt turpis fringilla eu. 
+									Donec vitae ante at ex aliquam vehicula non et metus.</p>
+									<p class='client-nume'><strong>Daniel</strong></p>
+							</div>
+							<div class='triunghi'><i class="fas fa-caret-up"></i></div>
+							<div class='recenzii-img'>
+								<img src='assets/images/client/client2.jpg'>
+							</div>
+						</div>
+						<div class='carousel-item'>
+							<div class='col-md-12 recenzii-item'>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Fusce ac sem convallis, maximus massa sed, varius mauris. 
+									Vivamus quis commodo metus. Maecenas dignissim dolor nunc, quis tincidunt turpis fringilla eu. 
+									Donec vitae ante at ex aliquam vehicula non et metus.</p>
+									<p class='client-nume'><strong>Alex</strong></p>
+							</div>
+							<div class='triunghi'><i class="fas fa-caret-up"></i></div>
+							<div class='recenzii-img'>
+								<img src='assets/images/client/client3.jpg'>
+							</div>
+						</div>
+					</div>
+
+					<a class='recenzii-prev' href='#recenzii' data-slide='prev'><i class="fas fa-caret-left"></i></a>
+					<a class='recenzii-next' href='#recenzii' data-slide='next'><i class="fas fa-caret-right"></i></a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='footer'>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-md-4 footer-item'>
+				<h3>Contact</h3>
+				<a href='https://www.google.com/maps/place/Bucharest,+Romania/@44.4378257,26.0946375,12z/data=!4m2!3m1!1s0x40b1f93abf3cad4f:0xac0632e37c9ca628?hl=en-US&gl=US' target='_blank'><i class="fas fa-map-marker-alt"></i> Locație</a>
+				<a href='tel: 0123456789'><i class="fas fa-phone-alt"></i> +40 123456789</a>
+				<a href='mail: mail@mail.com'><i class="fas fa-envelope"></i> mail@mail.com</a>
+			</div>
+			<div class='col-md-4 footer-item'>
+				<h3>Restaurant Fast-Food</h3>
+				<p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+				<div class='footer-icon'>
+					<div class='footer-icon-item'><a href='#'><i class="fab fa-facebook-f"></i></a></div>
+					<div class='footer-icon-item'><a href='#'><i class="fab fa-twitter"></i></a></div>
+					<div class='footer-icon-item'><a href='#'><i class="fab fa-instagram"></i></a></div>
+					<div class='footer-icon-item'><a href='#'><i class="fab fa-linkedin-in"></i></a></div>
+					<div class='footer-icon-item'><a href='#'><i class="fab fa-pinterest"></i></a></div>
+				</div>
+			</div>
+			<div class='col-md-4 footer-item'>
+				<h3>Program</h3>
+				<table>
+					<tr><td>Luni - Joi</td><td>10:00 - 22:00</td></tr>
+					<tr><td>Vineri - Duminică</td><td>10:00 - 00:00</td></tr>
+				</table>
+			</div>
+		</div>
+		<div class='row row-copy'>
+			<div class='col-md-12'>
+				<p>© 2021 All Rights Reserved</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+</body>
+	<script src='https://kit.fontawesome.com/27dad3c8cd.js' crossorigin='anonymous'></script>
+	<!-- jQuery library -->
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+	<!-- Popper JS -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'></script>
+	<!-- Latest compiled JavaScript -->
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+	<script src='assets/js/script.js'></script>
+</html>
